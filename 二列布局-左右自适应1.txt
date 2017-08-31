@@ -1,0 +1,105 @@
+<<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Hello CSS3</title>
+<link href='http://fonts.googleapis.com/css?family=Fruktur' rel='stylesheet' type='text/css'>
+<style type="text/css">
+body{
+margin:0;
+padding:0;
+}
+.main{
+	border-top:5px solid blue;
+	border-bottom:1px solid grey;
+	padding:.45em 1em .5em 2em;
+}
+.main li{
+	display:inline-block;
+	padding:0 2em;
+	border-left:1px solid grey;
+}
+.main li:first-child{
+	border-left:none;
+}
+
+
+.submain{
+float:left;
+width:70%;
+}
+.sidebar{
+float:right;
+width:20%;
+}
+
+
+
+.photo{
+float:left;
+margin-bottom:30px;
+margin-right:45px;
+}
+</style>
+</head>
+<body>
+<div>
+<img src="#">
+<ul class="main">
+	<li>HOME</li>
+	<li>ABOUT</li>
+	<li>CONTACT</li>
+</ul>
+</div>
+<div class="container">
+<div class="submain"><img src="#" width="300px"  height="300px" class="photo">
+<p>sadasdaasdasdiuasdioashdoiasdasdhoahdoad
+asdasdasdasdddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddddddddddddd
+ddddddddddddddddddddddddddddddddddd
+asdaasdasdiuasdioashdoiasdasdhoahdoad
+asdasdasdasdddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddddddddddddd
+ddddddddddddddddddddddddddddddddddd
+asdaasdasdiuasdioashdoiasdasdhoahdoad
+asdasdasdasdddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddddddddddddd
+ddddddddddddddddddddddddddddddddddd
+asdaasdasdiuasdioashdoiasdasdhoahdoad
+asdasdasdasdddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddddddddddddd
+ddddddddddddddddddddddddddddddddddd
+asdaasdasdiuasdioashdoiasdasdhoahdoad
+asdasdasdasdddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddddddddddddd
+ddddddddddddddddddddddddddddddddddd
+d</p></div>
+
+<div class="sidebar">
+<img src="#" width="90px" height="90px">
+<p>dasdddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+ddddddddddddddddddddddddddddddddddd
+asdaasdasdiuasdioashdoiasdasdhoahdoad
+asdasdasdasdddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddddddddddddd
+ddddddddddddddddddddddddddddddddddd
+asdaasdasdiuasdioashdoiasdasdhoahdoad
+asdasdasdasdddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddddddddddddd
+ddddddddddddddddddddddddddddddddddd
+asdaasdasdiuasdioashdoiasdasdhoahdoad
+asdasdasdasdddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddd</p>
+</div>
+</div>
+</body>
+</html>

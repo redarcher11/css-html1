@@ -1,0 +1,20 @@
+<%@page contentType="text/html; charset=UTF-8"%>
+<html>
+<head>
+<title>Insert title here</title>
+<style type="text/css">
+body{margin:0;padding:0;}
+.container{height:200px;background:red}
+.main{height:200px;background:blue;margin:0 200px;}
+.left{position:absolute;width:200px;height:200px;background:yellow;}
+.right{position:absolute;right:0;top:0;width:200px;height:200px;background:black;}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="left"></div>
+	<div class="main"></div>
+	<div class="right"></div>
+</div>
+</body>
+</html>

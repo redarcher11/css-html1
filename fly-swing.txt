@@ -1,0 +1,43 @@
+<%@page contentType="text/html; charset=UTF-8"%>
+<html>
+<head>
+<title>Insert title here</title>
+<style type="text/css">
+body{margin:0;padding:0;}
+.container > div {
+    float: left;
+    height: 200px;
+}
+.middle {
+    width: 100%;
+    background: red;
+}
+.middle-container { /* Ìí¼Ó .middle-container °ü¹üÄÚÈİ */
+    height: 200px;
+    margin: 0 200px;
+    background: darkred;
+}
+.left {
+    width: 200px;
+    margin-left: -100%;
+    background: blue;
+}
+.right {
+    width: 200px;
+    margin-left: -200px;
+    background: green;
+}
+</style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="middle">
+            <div class="middle-container"></div>
+        </div>
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+
+</body>
+</html>

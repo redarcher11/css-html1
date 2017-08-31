@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Hello CSS3</title>
+<link href='http://fonts.googleapis.com/css?family=Fruktur' rel='stylesheet' type='text/css'>
+<style type="text/css">
+body{
+margin:0;
+padding:0;
+}
+.container{
+
+	padding-left:100px;
+	height:200px;
+}
+.left{
+	
+	background:red;
+	height:200px;
+	width:100px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.right{
+	width:100%;
+	height:200px;
+	background:yellow;
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="right"></div>
+	<div class="left"></div>
+</div>
+
+</body>
+</html>
